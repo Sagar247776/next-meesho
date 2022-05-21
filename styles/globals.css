@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'sans-serif', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 2%;
+}
+
+.fstore {
+  background-image: url(0.jpg);
+  background-size: cover;
+  display: flex;
+  grid-gap: 15px;
+  padding: 5%;
+}
+
+.Fh1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+fieldset {
+  border-top: 2px solid rgb(255, 0, 195);
+}
